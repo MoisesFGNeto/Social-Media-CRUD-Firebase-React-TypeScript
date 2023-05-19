@@ -38,8 +38,13 @@ function App() {
           username: username || user.displayName,
         });
       });
-      setUsername((prevUsername) => username || prevUsername || user.displayName || '');
-      window.alert('Your username has been uploaded successfully!!');
+      await updateProfile(user, {
+        displayName: username || user.displayName,
+      });
+  
+      setUsername(username || user.displayName || '');
+  
+      window.alert('Your username has been updated successfully!');
     }
   };
 
