@@ -60,6 +60,7 @@ body {
 
 .user-info{
 	float: right;
+	margin-top: 3px;
 }
 
 .navbar-toggler{
@@ -68,6 +69,10 @@ body {
 .fa-bars {
 	color: white;
 	font-size: 26px;
+}
+
+.fa-bars:hover{
+	color: rgb(62, 29, 92);;
 }
 
 .username-logout{
@@ -640,6 +645,8 @@ iframe {
   justify-content: center;
 }
 
+
+
 .wrap-login100-form-btn {
   width: 100%;
   display: block;
@@ -688,8 +695,8 @@ iframe {
 }
 
 .login100-form-btn:hover {
-	background-color: rgb(127, 61, 189);
-	color: white;
+  background-color: rgb(62, 29, 92);
+  color: white;
   }
 
 /*------------------------------------------------------------------
@@ -795,6 +802,45 @@ iframe {
 	}
 }
 
+@media (min-width: 240px) and (max-width: 393px){
+	.avatar{
+		width: 150px;
+		height: 150px;
+	}
+	.alert-info{
+		max-width: auto;
+		height: 80px;
+	}
+	.container{
+		max-width: 240px;
+	}
+	.upload-btn{
+		margin-left: 50px;
+		margin-top: 5px;
+	}
+	.personal-info-h3{
+		margin-top: 5px;
+	}
+	.btns-profile{
+		margin-left: 110px;
+	}
+	.navbar{
+		width: 100%;
+	}
+	.alert-info{
+		display: none;
+	}
+
+}
+
+@media (min-width: 393px) and (max-width: 576px){
+	.username-input{
+		margin-left: 45px;
+	}
+	.btns-profile{
+		margin-left: 25px;
+	}
+}
 @media (max-width: 575.98px) {
 	.wrap-login100 {
 		padding-left: 15px;
@@ -805,7 +851,9 @@ iframe {
 		left: 240px;
 		top: -60px;
 	} 
-
+	.nav-item{
+		margin-left: 4px;
+	}
 	/*//////////////////////////////////////////////////////////////////
 [ Profile sm-size]*/
 	.form-control{
@@ -816,7 +864,7 @@ iframe {
 		width: 380px;
 		height: 48px;
 		text-align: center;
-		margin-right: auto;
+	
 	}
 	.username-input{
 		margin-right: auto;
@@ -824,11 +872,9 @@ iframe {
 	.personal-info-h3{
 		margin-right: auto;
 	}
-	.upload-btn{
-		margin-right: 370px;
-	}
+
 	.btns-profile{
-		margin-right: 280px;
+		margin-right: 100px;
 	}
 
 /*//////////////////////////////////////////////////////////////////
@@ -870,9 +916,8 @@ iframe {
 	width: 300px;
 	height: 360px;
 	margin-top: 130px;
-}
+}}
 
-  }
 
 @media (max-width: 767px){
 	.user-info {
@@ -888,8 +933,9 @@ iframe {
 }
 
 @media (min-width:768px) and (max-width: 991px){
-	.username-input{
-		margin-left: -430px;
+
+	.form-horizontal .control-label{
+		text-align: left;
 	}
 	.btns-profile{
 		margin-left: -100px;

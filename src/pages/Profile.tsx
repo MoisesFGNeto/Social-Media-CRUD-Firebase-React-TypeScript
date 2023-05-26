@@ -35,7 +35,7 @@ export const Profile = ({handleUsernameSubmit, handleImageProfileChange, handleU
     return (
     <>
 <div className="container bootstrap snippets bootdey">
-    <h1 className="text-light">Edit Profile</h1>
+    <h1 className="text-light edit-profile-txt">Edit Profile</h1>
     <hr/>
     <div className="row">
         <div className="col-md-3">
@@ -76,7 +76,7 @@ export const Profile = ({handleUsernameSubmit, handleImageProfileChange, handleU
                 <div className="form-group">
                     <label className="col-lg-1 mr-4 control-label username-input">Username:</label>
                   <div className="col-lg-8">
-                    <input className="form-control" type="text" onChange={handleUsernameChange}/>
+                    <input className="form-control username-input" type="text" onChange={handleUsernameChange}/>
                   </div>
                 </div>
                 <div className='btns-profile'>
