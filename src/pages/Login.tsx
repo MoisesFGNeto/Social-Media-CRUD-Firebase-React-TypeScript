@@ -60,12 +60,12 @@ export const Login = () => {
     <>
     <div className="limiter">
 		<div className="container-login100">
-			<div className="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+			<div className="wrap-login100 p-l-20 p-r-35 p-t-25">
                 <form className="login100-form validate-form" onSubmit={signIn}>
-                    <span className="login100-form-title p-b-49">
+                    <span className="login100-form-title p-b-20">
                         Login
                     </span>
-                    <div className="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
+                    <div className="wrap-input100 validate-input m-b-15" data-validate = "Username is required">
                         <span className="label-input100">Email</span>
                         <input className="input100" type="text" name="username" placeholder="Type your Email" onChange={(e) => setEmail(e.target.value)}/>
                         <span className="focus-input100" data-symbol="&#xf206;"></span>
@@ -92,7 +92,7 @@ export const Login = () => {
                         </div>
                     </div>
 
-                    <div className="txt1 text-center p-t-54 p-b-20">
+                    <div className="txt1 text-center p-t-35 p-b-20">
                         <span>
                             Or Sign In Using
                         </span>

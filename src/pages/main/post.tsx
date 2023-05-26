@@ -84,11 +84,11 @@ useEffect(() => {
         <div className="card pt-2">
           {canUpdateOrRemove && (
             <div className="dropdown">
-            <button className="x btn btn-transparent d-transparent dropdown-toggle update-remove-tbn" data-bs-toggle="dropdown" 
+            <button className="x btn btn-transparent d-transparent dropdown-toggle update-remove-tbn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
               onClick={(e) => {( e.target as HTMLButtonElement).blur(); }}
               style={{ outline: 'none' }}>
             </button>
-            <ul className="dropdown-menu">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <li><a className="dropdown-item" href="#" 
                 onClick={removePost}>
                 Delete

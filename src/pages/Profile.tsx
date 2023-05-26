@@ -58,7 +58,7 @@ export const Profile = ({handleUsernameSubmit, handleImageProfileChange, handleU
                   }}
                   />
                 <button 
-                  className='btn btn-primary mb-3'
+                  className='btn btn-primary mb-3 upload-btn'
                   onClick={uploadImage}
                 >
                     {isUploading ? 'Uploading...' : 'Upload Image'}
@@ -71,10 +71,10 @@ export const Profile = ({handleUsernameSubmit, handleImageProfileChange, handleU
                 <i className="fa fa-coffee"></i>
                 Please fill <strong>this form</strong> to save your username.
             </div>
-            <h3>Personal info</h3>
+            <h3 className='personal-info-h3'>Personal info</h3>
             <form className="form-horizontal mt-3">
                 <div className="form-group">
-                    <label className="col-lg-3 control-label">Username:</label>
+                    <label className="col-lg-1 mr-4 control-label username-input">Username:</label>
                   <div className="col-lg-8">
                     <input className="form-control" type="text" onChange={handleUsernameChange}/>
                   </div>

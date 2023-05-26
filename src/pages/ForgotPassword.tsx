@@ -28,8 +28,8 @@ export function ForgotPassword() {
   return (
     <div>
         <div className="limiter-1">
-            <div className="container-login100">
-                <div className="wrap-login100 p-l-55 p-r-55 p-t-40 p-b-80">
+            <div className="container-login1001">
+                <div className="wrap-login1001 p-l-55 p-r-55 p-t-30">
                     <form className="login100-form validate-form">
                         <span className="login100-form-title p-b-49">
                             Reset Password
