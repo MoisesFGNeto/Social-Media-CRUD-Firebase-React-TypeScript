@@ -1,4 +1,4 @@
-# See the final project in the link below
+# See the final project on the link below
 https://react-social-media-3c646.web.app/
 
 # Getting Started with Create React App
